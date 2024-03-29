@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.logo {
+    flex: 0.5;
+}
+
+.logo h1 {
+    font-family: Josefin Sans;
+}
+
+.submenu {
+    display: flex;
+    flex: 1;
+    gap: 20px;
+}
+
+.login {
+    flex: 0.5;
+}
+
+button {
+    background-color: #ECE5FF;
+    width: 169px;
+    height: 48px;
+    color: #794CFF;
+}
